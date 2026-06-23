@@ -13,8 +13,11 @@
 # * Docs and more: https://upptime.js.org
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
-
 name: Update Template CI
+
+permissions:
+  contents: write
+  pull-requests: write
 on:
   schedule:
     - cron: "0 0 * * *"
